@@ -19,8 +19,8 @@ from PyQt6.QtCore import QThread, pyqtSignal
 log = logging.getLogger(__name__)
 
 # ── Change these to match your GitHub repo ────────────────────────────────
-GITHUB_OWNER = "your-github-username"
-GITHUB_REPO  = "rdp-guard"
+GITHUB_OWNER = "phillipswatkins"
+GITHUB_REPO  = "RDPGuard"
 # ─────────────────────────────────────────────────────────────────────────
 
 CURRENT_VERSION = "1.0.0"   # bumped on each release
