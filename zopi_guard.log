@@ -1,0 +1,43 @@
+2026-03-16 17:23:40,841 [INFO] core.monitor — pywin32 loaded OK — real mode enabled.
+2026-03-16 17:23:40,945 [INFO] core.database — DB migration: added last_username column to attempts.
+2026-03-16 17:23:44,496 [WARNING] core.updater — Update check failed (network): HTTP Error 404: Not Found
+2026-03-16 17:23:44,497 [WARNING] gui.main_window — Startup update check: Could not reach GitHub. Check your internet connection.
+2026-03-16 17:26:14,069 [INFO] core.monitor — pywin32 loaded OK — real mode enabled.
+2026-03-16 17:26:17,735 [WARNING] core.updater — Update check failed (network): HTTP Error 404: Not Found
+2026-03-16 17:26:17,736 [WARNING] gui.main_window — Startup update check: Could not reach GitHub. Check your internet connection.
+2026-03-16 17:27:01,697 [INFO] core.monitor — Restoring 0 permanent block(s).
+2026-03-16 17:27:01,698 [INFO] core.monitor — Starting real event log monitor...
+2026-03-16 17:27:02,948 [INFO] core.monitor — Drained 22963 existing events. Watching for new ones...
+2026-03-16 17:27:20,394 [INFO] core.firewall — Firewall rule removed: unblock 192.168.4.213
+2026-03-16 17:27:28,003 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:27:28,004 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'hrudd', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:27:28,004 [INFO] core.monitor — Failed login from: 192.168.4.213  user: hrudd
+2026-03-16 17:27:28,016 [INFO] core.monitor — Attempt #1 from 192.168.4.213  user: hrudd
+2026-03-16 17:27:38,048 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:27:38,048 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'hrudd', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:27:38,049 [INFO] core.monitor — Failed login from: 192.168.4.213  user: hrudd
+2026-03-16 17:27:38,059 [INFO] core.monitor — Attempt #2 from 192.168.4.213  user: hrudd
+2026-03-16 17:27:43,069 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:27:43,070 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'hrudd', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:27:43,070 [INFO] core.monitor — Failed login from: 192.168.4.213  user: hrudd
+2026-03-16 17:27:43,079 [INFO] core.monitor — Attempt #3 from 192.168.4.213  user: hrudd
+2026-03-16 17:27:48,102 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:27:48,102 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'hrueee', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:27:48,102 [INFO] core.monitor — Failed login from: 192.168.4.213  user: hrueee
+2026-03-16 17:27:48,113 [INFO] core.monitor — Attempt #4 from 192.168.4.213  user: hrueee
+2026-03-16 17:27:53,128 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:27:53,128 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'hrueee', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:27:53,128 [INFO] core.monitor — Failed login from: 192.168.4.213  user: hrueee
+2026-03-16 17:27:53,137 [INFO] core.monitor — Attempt #5 from 192.168.4.213  user: hrueee
+2026-03-16 17:27:53,147 [WARNING] core.monitor — TEMP BLOCK: 192.168.4.213
+2026-03-16 17:27:53,273 [INFO] core.firewall — Firewall rule added (TEMPORARY): block 192.168.4.213
+2026-03-16 17:28:11,881 [INFO] core.monitor — pywin32 loaded OK — real mode enabled.
+2026-03-16 17:28:15,554 [WARNING] core.updater — Update check failed (network): HTTP Error 404: Not Found
+2026-03-16 17:28:15,555 [WARNING] gui.main_window — Startup update check: Could not reach GitHub. Check your internet connection.
+2026-03-16 17:29:08,633 [INFO] core.monitor — pywin32 loaded OK — real mode enabled.
+2026-03-16 17:29:12,287 [WARNING] core.updater — Update check failed (network): HTTP Error 404: Not Found
+2026-03-16 17:29:12,287 [WARNING] gui.main_window — Startup update check: Could not reach GitHub. Check your internet connection.
+2026-03-16 17:33:21,939 [INFO] core.monitor — pywin32 loaded OK — real mode enabled.
+2026-03-16 17:33:25,629 [WARNING] core.updater — Update check failed (network): HTTP Error 404: Not Found
+2026-03-16 17:33:25,630 [WARNING] gui.main_window — Startup update check: Could not reach GitHub. Check your internet connection.
+2026-03-16 17:34:54,761 [INFO] core.firewall — Firewall rule removed: unblock 192.168.4.213

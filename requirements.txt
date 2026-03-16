@@ -1,0 +1,6 @@
+# RDP Guard GUI - Dependencies
+# Install with: pip install -r requirements.txt
+
+PyQt6>=6.6.0        # GUI framework
+pywin32>=306        # Windows Event Log access (Windows only)
+# No extra packages needed for auto-update — uses Python stdlib urllib

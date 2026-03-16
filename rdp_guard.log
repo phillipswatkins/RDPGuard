@@ -1,0 +1,62 @@
+2026-03-16 17:10:54,259 [INFO] core.monitor — pywin32 loaded OK — real mode enabled.
+2026-03-16 17:10:56,439 [INFO] core.monitor — Restoring 0 permanent block(s).
+2026-03-16 17:10:56,439 [INFO] core.monitor — Starting real event log monitor...
+2026-03-16 17:10:57,631 [INFO] core.monitor — Drained 22914 existing events. Watching for new ones...
+2026-03-16 17:10:57,841 [WARNING] core.updater — Update check failed (network): HTTP Error 404: Not Found
+2026-03-16 17:10:57,842 [WARNING] gui.main_window — Startup update check: Could not reach GitHub. Check your internet connection.
+2026-03-16 17:11:12,671 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:11:12,671 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'test', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:11:12,671 [INFO] core.monitor — Failed login from: 192.168.4.213
+2026-03-16 17:11:12,682 [INFO] core.monitor — Attempt #1 from 192.168.4.213
+2026-03-16 17:11:17,705 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:11:17,705 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'test', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:11:17,705 [INFO] core.monitor — Failed login from: 192.168.4.213
+2026-03-16 17:11:17,715 [INFO] core.monitor — Attempt #2 from 192.168.4.213
+2026-03-16 17:11:22,734 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:11:22,734 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'test', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:11:22,734 [INFO] core.monitor — Failed login from: 192.168.4.213
+2026-03-16 17:11:22,748 [INFO] core.monitor — Attempt #3 from 192.168.4.213
+2026-03-16 17:11:27,770 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:11:27,770 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'test', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:11:27,771 [INFO] core.monitor — Failed login from: 192.168.4.213
+2026-03-16 17:11:27,780 [INFO] core.monitor — Attempt #4 from 192.168.4.213
+2026-03-16 17:11:32,806 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:11:32,806 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'test', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:11:32,806 [INFO] core.monitor — Failed login from: 192.168.4.213
+2026-03-16 17:11:32,816 [INFO] core.monitor — Attempt #5 from 192.168.4.213
+2026-03-16 17:11:32,830 [WARNING] core.monitor — TEMP BLOCK: 192.168.4.213
+2026-03-16 17:11:32,960 [INFO] core.firewall — Firewall rule added (TEMPORARY): block 192.168.4.213
+2026-03-16 17:11:52,565 [INFO] core.firewall — Firewall rule removed: unblock 192.168.4.213
+2026-03-16 17:12:03,041 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:12:03,041 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'hdhdd', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:12:03,041 [INFO] core.monitor — Failed login from: 192.168.4.213
+2026-03-16 17:12:03,051 [INFO] core.monitor — Attempt #1 from 192.168.4.213
+2026-03-16 17:13:58,363 [DEBUG] core.monitor — Read 4 new event(s).
+2026-03-16 17:14:50,019 [WARNING] core.updater — Update check failed (network): HTTP Error 404: Not Found
+2026-03-16 17:17:43,268 [INFO] core.monitor — pywin32 loaded OK — real mode enabled.
+2026-03-16 17:17:47,013 [WARNING] core.updater — Update check failed (network): HTTP Error 404: Not Found
+2026-03-16 17:17:47,014 [WARNING] gui.main_window — Startup update check: Could not reach GitHub. Check your internet connection.
+2026-03-16 17:18:22,983 [INFO] core.monitor — Restoring 0 permanent block(s).
+2026-03-16 17:18:22,983 [INFO] core.monitor — Starting real event log monitor...
+2026-03-16 17:18:24,194 [INFO] core.monitor — Drained 22943 existing events. Watching for new ones...
+2026-03-16 17:18:34,223 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:18:34,223 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'test', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:18:34,223 [INFO] core.monitor — Failed login from: 192.168.4.213
+2026-03-16 17:18:34,233 [INFO] core.monitor — Attempt #1 from 192.168.4.213
+2026-03-16 17:18:39,257 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:18:39,257 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'test', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:18:39,257 [INFO] core.monitor — Failed login from: 192.168.4.213
+2026-03-16 17:18:39,266 [INFO] core.monitor — Attempt #2 from 192.168.4.213
+2026-03-16 17:18:49,290 [DEBUG] core.monitor — Read 2 new event(s).
+2026-03-16 17:18:49,290 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'test', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:18:49,291 [INFO] core.monitor — Failed login from: 192.168.4.213
+2026-03-16 17:18:49,300 [INFO] core.monitor — Attempt #3 from 192.168.4.213
+2026-03-16 17:18:54,315 [DEBUG] core.monitor — Read 4 new event(s).
+2026-03-16 17:18:54,315 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'test', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:18:54,315 [INFO] core.monitor — Failed login from: 192.168.4.213
+2026-03-16 17:18:54,325 [INFO] core.monitor — Attempt #4 from 192.168.4.213
+2026-03-16 17:18:54,339 [DEBUG] core.monitor — 4625 event found. StringInserts: ('S-1-0-0', '-', '-', '0x0', 'S-1-0-0', 'test', '-', '0xc000006d', '%%2313', '0xc0000064', '3', 'NtLmSsp ', 'NTLM', '-', '-', '-', '0', '0x0', '-', '192.168.4.213', '0')
+2026-03-16 17:18:54,339 [INFO] core.monitor — Failed login from: 192.168.4.213
+2026-03-16 17:18:54,348 [INFO] core.monitor — Attempt #5 from 192.168.4.213
+2026-03-16 17:18:54,366 [WARNING] core.monitor — TEMP BLOCK: 192.168.4.213
+2026-03-16 17:18:54,496 [INFO] core.firewall — Firewall rule added (TEMPORARY): block 192.168.4.213
