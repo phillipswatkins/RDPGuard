@@ -11,27 +11,73 @@ permissions:
 jobs:
   build:
     runs-on: windows-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           pip install PyQt6 pywin32 pyinstaller
 
-      - name: Build executable
+      - name: Run PyInstaller
         run: |
-          pyinstaller --noconfirm --onedir --windowed --name "ZopiGuard" main.py
+          pyinstaller `
+            --noconfirm `
+            --onedir `
+            --windowed `
+            --name "ZopiGuard" `
+            --add-data "assets;assets" `
+            main.py
+        continue-on-error: false
 
-      - name: Zip build
+      - name: Install Inno Setup
         run: |
-          Compress-Archive -Path dist/ZopiGuard -DestinationPath "ZopiGuard-${{ github.ref_name }}-windows.zip"
+          choco install innosetup --yes --no-progress
 
-      - name: Create Release
+      - name: Get version from tag
+        id: get_version
+        run: |
+          $tag = "${{ github.ref_name }}"
+          $version = $tag.TrimStart('v')
+          echo "VERSION=$version" >> $env:GITHUB_OUTPUT
+
+      - name: Update version in installer script
+        run: |
+          $version = "${{ steps.get_version.outputs.VERSION }}"
+          (Get-Content installer.iss) -replace '#define AppVersion "1.0.0"', "#define AppVersion `"$version`"" | Set-Content installer.iss
+
+      - name: Create assets folder if missing
+        run: |
+          if (!(Test-Path "assets")) { New-Item -ItemType Directory -Path "assets" }
+
+      - name: Build installer with Inno Setup
+        run: |
+          & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer.iss
+
+      - name: List installer output
+        run: |
+          Get-ChildItem installer_output
+
+      - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: ZopiGuard-*.zip
-          generate_release_notes: true
+          files: installer_output/ZopiGuardSetup-*.exe
+          generate_release_notes: false
+          body: |
+            ## Zopi Guard ${{ github.ref_name }}
+
+            ### Installation
+            1. Download `ZopiGuardSetup-${{ github.ref_name }}.exe` below
+            2. Run the installer as Administrator
+            3. Follow the setup wizard
+            4. Launch Zopi Guard from the desktop or Start Menu
+
+            ### Requirements
+            - Windows 10 or later (64-bit)
+            - Administrator privileges (for firewall management)
